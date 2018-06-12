@@ -1,0 +1,10 @@
+git config --global user.name "Mandeep12321"
+git config--global user.email "amandhiman839@gmail.com"
+git init
+git add assignment 1 .py
+git add
+git status
+git commit-m"our important message"t in
+git log
+git remote add origin https://github.com/Mandeep12321/assignments.git
+git push origin master
