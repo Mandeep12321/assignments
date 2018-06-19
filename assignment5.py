@@ -41,32 +41,30 @@ if x>y and x>z :
 
 	    if y>z :
 
-	    	      print("x is older and z is younger")
+	    	print("x is older and z is younger")
 
 	    else :
 	    
-	    	      print("x is older and y is younger")
-
-if y>z and y>x :
-
-	    ifx>z :
-
-	              print("y is older and z is younger")
+	    	print("x is older and y is younger")
 
 
-        else :
+if y>z and y>x:
 
-        	      print("y is older and x is younger")
+	if x>z:
+		print("y is older and z is younger")
+
+	else:
+		print("y is older and x is younger")
 
 if z>y and z>x :
         
         if y>x :
 
-                  print("z is older and x is younger")
+            print("z is older and x is younger")
 
         else :
 
-                  print("z is older and y is younger")
+            print("z is older and y is younger")
 
 #Q4
 
@@ -74,7 +72,7 @@ p=int(input("enter points :"))
 
 if p<=50 :
 
-	     PRINT("no prize")
+	    print("no prize")
 elif p>=51 and p<=150:
 
 	    print("wooden prize")
